@@ -1,7 +1,7 @@
 <?php
 function start()
 {
-    session_start();
+        session_start();
     $_SESSION['mid'] = 50;
     $_SESSION['low'] = 1;
     $_SESSION['high'] = 100;
